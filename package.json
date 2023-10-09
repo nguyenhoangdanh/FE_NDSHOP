@@ -2,6 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
+  "proxy" : "https://be-ndshop.vercel.app",
   "dependencies": {
     "@mantine/core": "^7.1.2",
     "@mantine/hooks": "^7.1.2",
@@ -37,7 +38,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "proxy" : "https://be-ndshop.vercel.app"
   },
   "eslintConfig": {
     "extends": [

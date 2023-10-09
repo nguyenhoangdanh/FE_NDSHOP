@@ -3,7 +3,6 @@ import Header from '../components/Layouts/Header'
 import styles from '../styles/styles'
 import ProfileSidebar from "../components/Profile/ProfileSidebar"
 import ProfileContent from "../components/Profile/ProfileContent"
-import { set } from 'mongoose'
 const ProfilePage = () => {
     const [active, setActive] = useState(1);
   return (
